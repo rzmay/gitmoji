@@ -1,9 +1,10 @@
 const WordPOS = require('wordpos');
+const emojiFromWord = require('emoji-from-word');
 const weights = require('./weights.json');
 
 const wordpos = new WordPOS();
 
-async function generate(message) {
+module.exports = async function generate(message) {
   const pos = await wordpos.getPOS(message);
   const words = Object.keys(pos).map((key) => (
     pos[key].map((word) => ({
@@ -12,5 +13,12 @@ async function generate(message) {
     }))
   )).flat();
 
-  // Add emojis to words, multiply weight by score, return emoji with highest weight
-}
+  return words.map(({ word, weight }) => {
+    const { emoji, score } = emojiFromWord(word);
+
+    return {
+      emoji: emoji.char,
+      score: weight * score,
+    };
+  }).reduce((a, b) => (a.score > b.score ? a : b));
+};

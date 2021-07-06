@@ -4,9 +4,7 @@
   "description": "fuck",
   "main": "index.js",
   "dependencies": {
-    "ejs": "^3.1.3",
     "emoji-from-word": "^1.2.12",
-    "html": "^1.0.0",
     "wordpos": "^2.1.0"
   },
   "devDependencies": {

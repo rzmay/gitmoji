@@ -1,7 +1,8 @@
 {
   "nouns": 1.0,
-  "verbs": 0.85,
-  "adjectives": 0.75,
-  "adverbs": 0.65,
-  "rest": 0.5
+  "verbs": 0.95,
+  "adjectives": 0.9,
+  "adverbs": 0.85,
+  "rest": 0.8,
+  "sentiment": 0.75
 }

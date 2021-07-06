@@ -1,0 +1,36 @@
+{
+  "emojis": [
+    {
+      "emoji": "🎉",
+      "threshold": 0.85
+    },
+    {
+      "emoji": "😃",
+      "threshold": 0.75
+    },
+    {
+      "emoji": "👍",
+      "threshold": 0.5
+    },
+    {
+      "emoji": "👎",
+      "threshold": 0.3
+    },
+    {
+      "emoji": "😒",
+      "threshold": 0.25
+    },
+    {
+      "emoji": "😡",
+      "threshold": 0.1
+    },
+    {
+      "emoji": "😢",
+      "threshold": 0
+    },
+    {
+      "emoji": "😭",
+      "threshold": -100
+    }
+  ]
+}

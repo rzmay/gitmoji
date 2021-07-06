@@ -5,6 +5,7 @@
   "main": "src/index.js",
   "dependencies": {
     "emoji-from-word": "^1.2.12",
+    "sentiment": "^5.0.2",
     "wordpos": "^2.1.0"
   },
   "devDependencies": {
@@ -13,7 +14,7 @@
     "eslint-plugin-import": "^2.23.4"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test/index.js"
   },
   "repository": {
     "type": "git",

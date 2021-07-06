@@ -1,0 +1,31 @@
+{
+  "name": "gitmoji",
+  "version": "0.1.0",
+  "description": "fuck",
+  "main": "index.js",
+  "dependencies": {
+    "ejs": "^3.1.3",
+    "emoji-from-word": "^1.2.12",
+    "html": "^1.0.0",
+    "wordpos": "^2.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rzmay/gitmoji.git"
+  },
+  "keywords": [
+    "github",
+    "git",
+    "emoji"
+  ],
+  "author": "Robert May, Connor Stevens",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rzmay/gitmoji/issues"
+  },
+  "homepage": "https://github.com/rzmay/gitmoji#readme"
+}
